@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94c2d480-d5c6-4184-8211-72ec0f4d87cd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Resource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourceTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResourceSO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NavMeshComponents/Scripts/NavMeshSurface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GOAP/GWorld.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Actions/UseToilet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interface/WInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GOAP/GAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GOAP/GPlanner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GOAP/WorldStates.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GOAP/GInventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GOAP/GAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GOAP/GStateMonitor.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Actions/GAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/UpdateWorld.cs" />
+        <option value="$PROJECT_DIR$/Assets/Cubicle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Actions/GoToWaitingRoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/GOAP/GAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/GOAP/WorldStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/GOAP/GPlanner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Actions/GetPatient.cs" />
+        <option value="$PROJECT_DIR$/Assets/GOAP/GWorld.cs" />
+        <option value="$PROJECT_DIR$/Assets/Actions/GoHome.cs" />
+        <option value="$PROJECT_DIR$/Assets/Agents/Patient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Actions/GetTreated.cs" />
+        <option value="$PROJECT_DIR$/Assets/GOAP/GAgentVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/GOAP/GAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/GOAP/Editor/GAgentEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/GOAP/GInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Actions/Rest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Agents/Nurse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Actions/GoToCubicle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UpdateWorld.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cubicle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/WorldStates.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Office.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Toilet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UseBathroom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Doctor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Nurse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Patient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Register.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GetTreated.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GoHome.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GetPatient.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UseToilet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GoToWaitingRoom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoPaperwork.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GStateMonitor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Janitor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CleanUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GoToCubicle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Spawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GInventory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResourceSO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResourceTypes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Resource.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GOAP/GWorld.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interface/WInterface.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bplN1udbTcIPhyqT6DemDRKPXl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94c2d480-d5c6-4184-8211-72ec0f4d87cd" name="Default Changelist" comment="" />
+      <created>1589336872691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589336872691</updated>
+      <workItem from="1589336876930" duration="10468000" />
+      <workItem from="1589400806069" duration="7653000" />
+      <workItem from="1589425709093" duration="2636000" />
+      <workItem from="1589467692041" duration="1647000" />
+      <workItem from="1589488663708" duration="4772000" />
+      <workItem from="1589595155053" duration="2802000" />
+      <workItem from="1589636837114" duration="1821000" />
+      <workItem from="1589639256568" duration="8276000" />
+      <workItem from="1589747768077" duration="9013000" />
+      <workItem from="1589808835395" duration="11907000" />
+      <workItem from="1589829298650" duration="1773000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="794" y="235" key="RiderGenerateDialog" timestamp="1589659730016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="235" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589659730016" />
+    <state x="890" y="243" key="run.anything.popup" timestamp="1589659635938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="890" y="243" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589659635938" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1589821930660">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589821930660" />
+  </component>
+</project>
