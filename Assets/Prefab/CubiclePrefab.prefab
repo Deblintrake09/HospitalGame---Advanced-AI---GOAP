@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5621196867399924736}
   - component: {fileID: 5916476595674150248}
+  - component: {fileID: 8012956260766059404}
   m_Layer: 0
   m_Name: CubiclePrefab
   m_TagString: Cubicle
@@ -45,6 +46,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resourceData: {fileID: 11400000, guid: 637bfbc13f0357d4495ef1861c41f524, type: 2}
+--- !u!65 &8012956260766059404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3422283660374932189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3, y: 4.43, z: 4.5}
+  m_Center: {x: 1.43, y: 2.66, z: 2}
 --- !u!1001 &5358623464594204073
 PrefabInstance:
   m_ObjectHideFlags: 0

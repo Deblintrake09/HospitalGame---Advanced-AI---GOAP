@@ -1833,11 +1833,12 @@ GameObject:
   m_Component:
   - component: {fileID: 6356012820408010093}
   - component: {fileID: 6343899997627631867}
+  - component: {fileID: 2440388790571555972}
   - component: {fileID: 3849384403827631869}
+  - component: {fileID: 6947521906384555397}
+  - component: {fileID: 1194540184889519228}
   - component: {fileID: 1712670750464904339}
   - component: {fileID: 6343899997627631864}
-  - component: {fileID: 1194540184889519228}
-  - component: {fileID: 2440388790571555972}
   - component: {fileID: 7881807149718924857}
   - component: {fileID: 7881807149718924861}
   - component: {fileID: 6318562846159241999}
@@ -1885,6 +1886,19 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2440388790571555972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6343899997627631865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce8d09e5c4f8684db3c65508231a11d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisAgent: {fileID: 6343899997627631864}
 --- !u!114 &3849384403827631869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1905,6 +1919,58 @@ MonoBehaviour:
   preConditions: []
   afterEffects:
   - key: hasArrived
+    value: 1
+  agent: {fileID: 0}
+  running: 0
+--- !u!114 &6947521906384555397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6343899997627631865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9935c70f8bfcaa34f84456beb904a5e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Action
+  cost: 1
+  target: {fileID: 0}
+  targetTag: Reception
+  duration: 0
+  preConditions:
+  - key: hasArrived
+    value: 1
+  afterEffects:
+  - key: atReception
+    value: 0
+  agent: {fileID: 0}
+  running: 0
+--- !u!114 &1194540184889519228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6343899997627631865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6597eac7330173c45b1e243f699a590e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: Register
+  cost: 1
+  target: {fileID: 0}
+  targetTag: Reception
+  duration: 2
+  preConditions:
+  - key: atReception
+    value: 1
+  - key: receptionAttended
+    value: 1
+  afterEffects:
+  - key: hasRegistered
     value: 1
   agent: {fileID: 0}
   running: 0
@@ -1947,44 +2013,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions: []
   currentAction: {fileID: 0}
---- !u!114 &1194540184889519228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6343899997627631865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6597eac7330173c45b1e243f699a590e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actionName: Register
-  cost: 1
-  target: {fileID: 0}
-  targetTag: Reception
-  duration: 2
-  preConditions:
-  - key: hasArrived
-    value: 1
-  afterEffects:
-  - key: hasRegistered
-    value: 1
-  agent: {fileID: 0}
-  running: 0
---- !u!114 &2440388790571555972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6343899997627631865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ce8d09e5c4f8684db3c65508231a11d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thisAgent: {fileID: 6343899997627631864}
 --- !u!114 &7881807149718924857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2056,6 +2084,8 @@ MonoBehaviour:
   - key: needToPee
     value: 1
   - key: freeToilet
+    value: 1
+  - key: atHospital
     value: 1
   afterEffects:
   - key: emptyBladder
